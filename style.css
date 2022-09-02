@@ -1,0 +1,295 @@
+body {
+font-size: 14px;
+}
+.title {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 24px; 
+}
+
+/*Checkboxen*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switchvalue {
+  width: 125px;
+  display: inline-block;
+  /*border: 1px solid #ccc;*/
+  padding:15px;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .sliderPSt{
+  background-color: blue!important;
+}
+input:checked + .sliderPS{
+  background-color: orange!important;
+}
+input:checked + .sliderPG{
+  background-color: #006400!important;
+}
+input:checked + .sliderPM{
+  background-color: #800080!important;
+}
+input:checked + .sliderPR{
+  background-color: #cdcd4c!important;
+}
+
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+	
+	.but {
+      width: 10%;
+      background-color: pink;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .but:hover {
+      background-color: red;
+    }
+/*Angabebox*/
+$white: rgba(255,255,255,0.3);
+
+.container {
+    float: left;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+form {
+  background: $white;
+  padding: 3em;
+  border-radius: 20px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  
+  p {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 50%;
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.get-geo-customer {
+	width: 25%!Important;
+	
+}
+
+.containerMAP {
+  position: absolute;
+  left: 0;
+  width: 80%;
+  background: $white;
+  padding: 3em;
+  border-radius: 20px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+}
+
+.containerSTARTTARGET {
+  display:none;
+}
+
+.containerPG {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  background: $white;
+  padding: 3em;
+  border-radius: 20px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+}
+.containerFOOTER {
+  top: 600px;
+  position: relative;
+  right: 100;
+  width: 20%;
+}
+
+@media only screen and (max-width: 980px) {
+  body {
+    font-size: 26px;
+    width: 100%;
+  }
+
+.container {
+width: 100%;
+}
+
+form {
+  width: 100%;
+  background: $white;
+  padding: 3em;
+  height: 520px;
+  border-radius: 20px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  
+  p {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+}
+
+.containerMAP {
+	position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+	background: $white;
+	border-radius: 2px;
+	border-left: 1px solid $white;
+	border-top: 1px solid $white;
+	backdrop-filter: blur(10px);
+	text-align: left;
+	transition: all 0.2s ease-in-out;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.containerSTARTTARGET {
+  display:none;
+}
+
+.containerPG {
+	position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+	/*top: 80%;*/
+	padding-top: 50px;
+}
+
+.get-geo-customer {
+	width: 40%!Important;
+	
+}
+
+}
+
+

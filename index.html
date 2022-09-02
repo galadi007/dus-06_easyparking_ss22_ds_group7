@@ -1,0 +1,356 @@
+﻿<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Easy Parking</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <py-env>
+# externe packages
+      - folium
+      - pandas
+    </py-env>
+    </head>
+<!---pyodide
+ToDo:
+color marker an checkbox park garage 
+Tendenz
+Geo Data delete in Marker
+Mathplot Parksituation from Time 00:00 click on Park Garage
+Park Garage Marker green, yellow, beige, red
+https://www.w3schools.com/html/html5_geolocation.asp -> Start with geo data
+
+--> 
+    <body>
+    <py-script>
+	
+# get packages
+
+import folium
+import requests
+import csv, json
+import pandas as pd
+
+from pyodide.http import open_url, pyfetch
+import asyncio	
+from collections import OrderedDict
+
+from collections import namedtuple
+import numpy as np
+import math
+    </py-script>
+
+    <py-script>
+
+    </py-script>
+	
+<!-- start and target formular -->
+<div class="title">Welcome to EASY PARKING</div>
+<div class="container">
+
+<!--p id="geofield"></p-->
+<!--div class="display"></div-->
+
+<div class="switchvalue">Charging Station  		
+<label class="switch">
+			<input onclick="gewaehlteFilterCS()" id="gewaehlteFilterCS" gewaehlteFilterCS="gewaehlteFilterCS" type="checkbox" value="Charging Station checked" checked> 
+			<span class="sliderPSt slider round"></span>
+		</label>
+</div>
+<div class="switchvalue">Parking Slot  		
+<label class="switch">
+			<input onclick="gewaehlteFilterPS()" id="gewaehlteFilterPS" gewaehlteFilterPS="gewaehlteFilterPS" type="checkbox" value="Parking Slot checked" checked> 
+			<span class="sliderPS slider round"></span>
+		</label>
+</div>
+<div class="switchvalue">Park Garage  		
+<label class="switch">
+			<input onclick="gewaehlteFilterPG()" id="gewaehlteFilterPG" gewaehlteFilterPG="gewaehlteFilterPG" type="checkbox" value="Park Garage checked" checked> 
+			<span class="sliderPG slider round"></span>
+		</label>
+</div>
+<div class="switchvalue">Park and Ride		
+<label class="switch">
+			<input onclick="gewaehlteFilterPR()" id="gewaehlteFilterPR" gewaehlteFilterPR="gewaehlteFilterPR" type="checkbox" value="Park and Ride checked" checked> 
+			<span class="sliderPR slider round"></span>
+		</label>
+</div>
+<div class="switchvalue">Parking Meter		
+<label class="switch">
+			<input onclick="gewaehlteFilterPM()" id="gewaehlteFilterPM" gewaehlteFilterPM="gewaehlteFilterPM" type="checkbox" value="Park Meter checked" checked> 
+			<span class="sliderPM slider round"></span>
+		</label>
+</div>
+	<form onsubmit="return false">
+        <label for="startort">Start:</label><br>
+        <input type="text" id="startort" startort="startort" value="Riehler Str. 173, 50735 Köln">
+		<input type="submit" class="get-geo-customer" id="youraddress" onclick="getLocation()" value="Your Address"><br>
+		<label for="zielort">Target:</label><br>
+        <input type="text" id="zielort" zielort="zielort" value="Luxemburger Str. 101, 50939 Köln"><br>
+        <input pys-onClick="sub" type="submit" id="get-geo" onclick="subMap()" value="Check Easy Parking">
+    </form> 
+</div>
+
+<script>
+// find your address over your GPS
+ function errorHandler(err) {
+            if(err.code == 1) {
+               alert("Error: Access is denied!");
+            } else if( err.code == 2) {
+               alert("Error: Position is unavailable!");
+            }
+         }
+		 
+function getLocation() {
+  if (navigator.geolocation) {
+  // timeout at 60000 milliseconds (60 seconds)
+  var options = {timeout:60000};
+  var counter = navigator.geolocation.watchPosition(showPosition);
+	if (counter < 2)
+	{
+		navigator.geolocation.watchPosition(showPosition, errorHandler, options);
+		//alert("1 " + navigator.geolocation.watchPosition(showPosition, errorHandler, options));
+	}else{		
+		//alert("2 " + navigator.geolocation.watchPosition(showPosition, errorHandler, options));
+	}
+  } else {
+    alert("Geolocation is not supported by this browser.");
+  }
+}
+
+function showPosition(position) {
+//var latitude = position.coords.latitude;
+//var longitude = position.coords.longitude;
+//alert("Latitude : " + latitude + " Longitude: " + longitude);
+
+x = "https://nominatim.openstreetmap.org/search?format=json&q=" + position.coords.latitude + "," + position.coords.longitude;
+
+	const Http = new XMLHttpRequest();
+	const url=x;
+	Http.open("GET", url);
+	Http.send();
+
+	Http.onreadystatechange = (e) => {
+	
+		var returned_string = Http.responseText;
+		var returned_string = returned_string.replace('[{','{').replace('}]','}').replace(',"importance":0.001','');
+		//console.log(returned_string);
+		var obj = JSON.parse(returned_string);
+		document.getElementById("startort").setAttribute("value", obj.display_name);
+		document.getElementById("youraddress").setAttribute("onClick", "location.href=location.href");		
+		document.getElementById("youraddress").setAttribute("value", "Reload Page For New GPS Data"); 
+		//document.getElementById("youraddress").disabled = true;
+		//.getElementById("youraddress").setAttribute("style", "background-color:#000");
+		
+	}  
+}
+
+// change values for checkbox
+function gewaehlteFilterCS() {
+var x;
+x = document.getElementById("gewaehlteFilterCS").value;
+if (x == "Charging Station checked")
+{
+  document.getElementById("gewaehlteFilterCS").setAttribute("value", "Charging Station NOT checked"); 
+}else{
+ document.getElementById("gewaehlteFilterCS").setAttribute("value", "Charging Station checked");
+}
+}
+
+function gewaehlteFilterPS() {
+var x;
+x = document.getElementById("gewaehlteFilterPS").value;
+if (x == "Parking Slot checked")
+{
+  document.getElementById("gewaehlteFilterPS").setAttribute("value", "Parking Slot NOT checked"); 
+}else{
+ document.getElementById("gewaehlteFilterPS").setAttribute("value", "Parking Slot checked");
+}
+}
+function gewaehlteFilterPG() {
+var x;
+x = document.getElementById("gewaehlteFilterPG").value;
+if (x == "Park Garage checked")
+{
+  document.getElementById("gewaehlteFilterPG").setAttribute("value", "Park Garage NOT checked"); 
+}else{
+ document.getElementById("gewaehlteFilterPG").setAttribute("value", "Park Garage checked");
+} 
+}
+function gewaehlteFilterPR() {
+var x;
+x = document.getElementById("gewaehlteFilterPR").value;
+if (x == "Park and Ride checked")
+{
+  document.getElementById("gewaehlteFilterPR").setAttribute("value", "Park and Ride NOT checked"); 
+}else{
+ document.getElementById("gewaehlteFilterPR").setAttribute("value", "Park and Ride checked");
+}
+}
+function gewaehlteFilterPM() {
+var x;
+x = document.getElementById("gewaehlteFilterPM").value;
+if (x == "Park Meter checked")
+{
+  document.getElementById("gewaehlteFilterPM").setAttribute("value", "Park Meter NOT checked"); 
+}else{
+  document.getElementById("gewaehlteFilterPM").setAttribute("value", "Park Meter checked"); 
+}
+}
+
+
+ 
+</script> 	
+  <button onclick="subMap()" id="get-geo" pys-onClick="get_geo"></button>
+  
+<div class="containerSTARTTARGET">
+  <div id="outputGEODATASTART"></div>
+  <div id="outputGEODATATARGET"></div>
+  <p id='output'></p>
+
+</div>
+  <py-script src="./fetch_geo_data.py"></py-script>
+  <!-- show card	-->
+<div class="containerMAP">
+<h3 id="showmapandhidden"><strong>Press Check Button to show Map</strong></h3>
+  <div class="foliummap" id="foliummap"></div>
+</div>
+<script>
+
+function subMap() {
+  document.getElementById("showmapandhidden").setAttribute("style","display:none;");  
+}
+
+</script> 
+
+<!-- click button show geo data from ./fetch_target_geo_data.py -->	
+<div class="containerPG">
+<h3><strong>Park Garage:</strong></h3>
+<strong><div id="outputPG100"></div></strong>
+<div id="outputPG0"></div>
+<div id="outputPG1"></div>
+<div id="outputPG2"></div>
+<div id="outputPG3"></div>
+<div id="outputPG4"></div>
+<div id="outputPG5"></div>
+<div id="outputPG6"></div>
+<div id="outputPG7"></div>
+<div id="outputPG8"></div>
+<div id="outputPG9"></div>
+<div id="outputPG10"></div>
+<div id="outputPG11"></div>
+<div id="outputPG12"></div>
+<div id="outputPG13"></div>
+<div id="outputPG14"></div>
+<div id="outputPG15"></div>
+<div id="outputPG16"></div>
+<div id="outputPG17"></div>
+<div id="outputPG18"></div>
+<div id="outputPG19"></div>
+<div id="outputPG20"></div>
+<div id="outputPG21"></div>
+<div id="outputPG22"></div>
+<div id="outputPG23"></div>
+<div id="outputPG24"></div>
+<div id="outputPG25"></div>
+<div id="outputPG26"></div>
+<div id="outputPG27"></div>
+<div id="outputPG28"></div>
+<div id="outputPG29"></div>
+<div id="outputPG30"></div>
+<div id="outputPG31"></div>
+<div id="outputPG32"></div>
+<div id="outputPG33"></div>
+<div id="outputPG34"></div>
+<div id="outputPG35"></div>
+<div id="outputPG36"></div>
+<div id="outputPG37"></div>
+<div id="outputPG38"></div>
+<div id="outputPG39"></div>
+<div id="outputPG40"></div>
+<div id="outputPG41"></div>
+<div id="outputPG42"></div>
+<div id="outputPG43"></div>
+<div id="outputPG44"></div>
+<div id="outputPG45"></div>
+<div id="outputPG46"></div>
+<div id="outputPG47"></div>
+<div id="outputPG48"></div>
+<div id="outputPG49"></div>
+<div id="outputPG50"></div>
+<div id="outputPG51"></div>
+</div>
+<div class="containerFOOTER">
+<a href="https://service-datenbank.de/impressum.html" target="_blank">Impressum</a>
+<a href="https://service-datenbank.de/datenschutz.html" target="_blank">Datenschutzerklärung</a>
+</div>
+<!-- get infos formular -->
+    <py-script>
+import requests
+import re
+import csv, json, xml
+import pandas as pd
+
+from pyodide.http import open_url, pyfetch
+import asyncio
+from pyodide.http import open_url, pyfetch
+from datetime import datetime
+	
+def sub(*args,**kwargs):
+    result_place = Element('output')
+    result_place.write(f"{Element('zielort').value}")
+
+# show all data from parking garage in outputPG
+
+url_content = open_url("https://service-datenbank.de/parking_garage_infos.csv")
+dfPG1 = pd.read_csv(url_content)
+dfPG1 = dfPG1.drop('lat', axis=1)
+dfPG1 = dfPG1.drop('lng', axis=1)
+dfPG1.fillna("", inplace = True)
+dfPG1.loc[dfPG1['longname'].str.strip() == '', 'longname'] = dfPG1['title']
+dfPG1 = dfPG1.sort_values(by=['longname'], ignore_index=True)
+
+#pk0 = "Parkhaus: " + dfPG1["longname"][0] + " " + dfPG1["street"][0]  + " " + str(dfPG1["housenumber"][0]) + " Freie Parkplätze: " + str(dfPG1["free"][0])
+#pg = str(i) + "Parkhaus: " + dfPG1["longname"][i] + " " + dfPG1["street"][i]  + " " + str(dfPG1["housenumber"][i]) + " Freie Parkplätze: " + str(dfPG1["free"][i])
+
+# show last timestamp 
+dfPG100 = dfPG1["timestamp"][0]
+dfPG100 = datetime.strptime(dfPG100, "%Y-%m-%d %H:%M:%S")
+dfPG100 = dfPG100.strftime("%H:%M:%S %d.%m.%Y")
+ 
+pg100 = "Last Timestamp: " + str(dfPG100)
+pyscript.write('outputPG100', pg100)
+ 
+for i in dfPG1.index:
+    if dfPG1['free'][i] >= 100 and dfPG1['status'][i] == 1:
+        pg = ' <strong>' + dfPG1['longname'][i] + '</strong> ' + ' a lot of free parking spaces <div style="color:#006400"><strong>' + str(dfPG1['free'][i]) + '</strong><br><div style="color:#000"> Tendency: ' + str(dfPG1['tendenz'][i]).replace('0','<a style="color:#000">stays').replace('-1','<a style="color:#006400">becomes less').replace('1','<a style="color:red">becomes fuller').replace('2','<a style="color:red">becomes fuller')
+        outputPG = 'outputPG'
+        outputPG = outputPG + str(i)
+    elif dfPG1['free'][i] < 100 and 41 < dfPG1['free'][i] and dfPG1['status'][i] == 1:
+        pg = ' <strong>' + dfPG1['longname'][i] + '</strong> ' + ' free parking spaces <div style="color:#008000"><strong>' + str(dfPG1['free'][i]) + '</strong><br><div style="color:#000"> Tendency: ' + str(dfPG1['tendenz'][i]).replace('0','<a style="color:#000">stays').replace('-1','<a style="color:#006400">becomes less').replace('1','<a style="color:red">becomes fuller').replace('2','<a style="color:red">becomes fuller')
+        outputPG = 'outputPG'
+        outputPG = outputPG + str(i)
+    elif dfPG1['free'][i] < 41 and 1 < dfPG1['free'][i] and dfPG1['status'][i] == 1:
+        pg = ' <strong>' + dfPG1['longname'][i] + '</strong> ' + ' parking spaces are still available <div style="color:#00FF00"><strong>' + str(dfPG1['free'][i]) + '</strong><br><div style="color:#000"> Tendency: ' + str(dfPG1['tendenz'][i]).replace('0','<a style="color:#000">stays').replace('-1','<a style="color:#006400">becomes less').replace('1','<a style="color:red">becomes fuller').replace('2','<a style="color:red">becomes fuller')
+        outputPG = 'outputPG'
+        outputPG = outputPG + str(i)
+    elif dfPG1['status'][i] == 0:
+        pg = ' <strong>' + dfPG1['longname'][i] + '</strong> ' + ' parking not available <div style="color:red"><strong>' 
+        outputPG = 'outputPG'
+        outputPG = outputPG + str(i)
+    else:
+        pg = ' <strong>' + dfPG1['longname'][i] + '</strong> ' + ' Parking garage full <div style="color:red"><strong>' + str(dfPG1['free'][i]) + '</strong><br><div style="color:#000"> Tendency: ' + str(dfPG1['tendenz'][i]).replace('0','<a style="color:#000">stays').replace('-1','<a style="color:#006400">becomes less').replace('1','<a style="color:red">becomes fuller').replace('2','<a style="color:red">becomes fuller')
+        outputPG = 'outputPG'
+        outputPG = outputPG + str(i)
+    #print(outputPG)
+    pyscript.write(outputPG, pg)
+
+    </py-script>
+			
+	    <p id = 'output5'></p>
+
+    </body>
+
+</html>
