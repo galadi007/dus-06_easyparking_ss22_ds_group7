@@ -3,7 +3,8 @@ import random
 import pandas as pd
 import pydeck as pdk
 
-df_data = pd.read_csv('../techlabs_merging/merged_data.csv', index_col=0)
+# Load the data to display
+df_data = pd.read_csv('../techlabs_merging/merged_data_with_bala.csv', index_col=0)
 df_data = df_data.loc[:, ['x', 'y', 'type']]
 st.title("Easy Parking")
 
@@ -18,9 +19,17 @@ type_mask = df_data.type.isin(selected_types)
 # Filter data for selected types
 df_data = df_data[type_mask]
 
+type_colors = {
+    'disabled parking slot': '#ffa500',
+    'park and ride': '#cdcd4c',
+    'parking meter': '#800080',
+    'parking garage': '#006400',
+    'charging station': '#0000ff'
+}
+
 @st.cache
-def generate_random_hexcolor(type):
-    return "#%06x" % random.randint(0, 0xFFFFFF)
+def get_hexcolor(type):
+    return type_colors[type]
 
 def hex_color_to_rgb_list(hex_color):
     """
@@ -34,7 +43,7 @@ if df_data.type.nunique() > 0: # If user deselects all options, ignore showing c
     cols = st.columns(df_data.type.nunique())
     for i, type in enumerate(df_data.type.unique()):
         with cols[i]:
-            hex_color = st.color_picker(type, value=generate_random_hexcolor(type))
+            hex_color = st.color_picker(type, value=get_hexcolor(type))
             rgb_list = hex_color_to_rgb_list(hex_color)
             rgba_list = rgb_list + [200] # add fixed alpha value as last element
             colors[type] = rgba_list
