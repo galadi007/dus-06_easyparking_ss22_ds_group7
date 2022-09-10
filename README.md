@@ -13,10 +13,10 @@ This is also because we can present 2 working UI solutions, which are ultimately
 In the individual folders of the team members there are also separate readme files that describe the respective code, so this file is only a first overview and explanation. 
 
 ## Folder "balapsub_code:
-In the Folder "balapsub_code" you will find the code for our database. we used some static and some dynamic data and used webscraping to get some more information from additional pages.
+In the Folder "balapsub_code" you will find the code for our dataset with scraped data. We used some static and some dynamic data and used webscraping to get some more information from additional pages.
 
 ## Folder "hannah":
-In the Folder "hannah" you will find our first UI solution using streamlit. you can also find some further information about our used data.
+In the Folder "hannah" you will find the code for our dataset with 5 different datasets combined and our first UI solution using streamlit. You can also find some further information about the data we have used.
 
 ## Folder "thomas":
 In the Folder "thomas" you will find our second UI solution using pyscript and folium. 
