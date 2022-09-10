@@ -1,0 +1,41 @@
+##########################################################################
+############# Manual to the function Webscrapping_v2.py ##################
+##########################################################################
+
+****Objective*****************************************************************
+
+EasyParking webapp provides information about the parking location with filtering options. EasyParking also provides real-time information about the number free parking space available. Thus, it is necessary to provide Dataset which also updates / overwrite the seperate Dataset. It could be called in certain interval of time using scheduler function in HTML.
+This code extracts information website and write required data as dataset.
+
+****Python Modules used*******************************************************
+
++BeautifulSoup from bs4
+	To parse html page, find information in website.
++Pandas
+	To work with data organized in tablulated  variables lists.
++requests
+	requests allows you to send HTTP/1.1 requests extremely easily. It can handle HTML url, status code, encoding etc.,
++os
+	os modules are used to operating system dependent functionality in a portable way. 
++re
+	This module provides regular expression matching operations similar to those found in Perl.
+
+****Webpage requests, parsing and scrapping data********************************
+	This module is specifically written to handle data from the following url.
+ url = 'https://www.stadt-koeln.de/leben-in-koeln/verkehr/parken/parkhaeuser/'
+
+The HTML elements such as Header, Content etc., of the page is assigned to the variable'page'. 
+Then the content of the page is parsed using 'html.parser' using 'BeautifulSoup'
+'soup.find_all('table') returns all the table elements in the 'page' and assigned to 'table'
+
+****Data Process using pandas module*****************************************
+So far the table found in page is in the HTML format. pandas can handle html elements by using 'read_html'.
+The page has multiple tables with unique names. Hence it is logical to combine these tables into single table to avoid multiple variables. All tables are combined using 'concat' method of pandas in axis = 0 
+Created new headers for csv file ['Parkhaus','Art','Adress','Betriebszeit','Weitere Datei']
+Although the data were scrapped from the website from the logics above, the data need to be formatted to write it in columns. Hence special logics are used to sperate details fo Free parking space available 'Freie Plätz' from the 'Parkhaus' columns. For this lambda methods are used to split Parkhaus name and free parking places.
+Zip codes are also sperated from the address and haus number for clear understanding of haus number from the pin code / zip code / Post Leitzahl
+**** write data as csv file****
+Finall the formatted data is written as CSV file with 'utf-8' encoding.
+*****************************************************************************************************
+
+This module could be used to get data from the website without manual interaction. Further this module is called in certain interval of time using scheduler function to get updated information file.
