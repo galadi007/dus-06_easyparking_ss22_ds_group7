@@ -1,0 +1,251 @@
+identifier,longname,status,capacity,free,open_time,close_time,timestamp,tendenz,id,title,slug,zip,city,district,street,housenumber,Datum1,womens_parking,price,phone,open,extra_info,entry_height,entry_width,capacity_brutto,volltext,notice,has_livedata,data_source,owner_url,category,last_edit,lat,lng,data_age
+PH02,Am Dom,1,430,193,00:00,,2022-09-02 11:18:27,1,1,Dom,dom,50667,Köln,Innenstadt,Kurt Hackenberg Platz,2,2010-02-04,30,"2,40 € / 24 €",0221/2578505,durchgehend,"Die Zufahrt zum Parkhaus ist nur über den Kurt-Hackenberg-Platz möglich. 
+
+<br />
+
+je angef. 20 min 0,80 € <br />Tag 24,00 € <br />
+19 – 9 Uhr je angef. Std. 1,00 €
+<br />
+Dauereinstellplatz pro Monat 170 €<br />
+gesichert durch digitale Videoüberwachung<br>
+Barrierefreier Aufzug zum Roncalliplatz",1.90,2.40,610,"Dom 2567543.01 5645422.37 50667 Köln Kurt Hackenberg Platz 2 2010-02-04 30 1,80 € / 18 € 0221/2578505 durchgehend Abrechnung im 20-Minuten-Takt
+<br>
+Abendtarif: 19h-09h 1,00 € / Std. 
+<br>
+gesichert durch digitale Videoüberwachung<br>
+Barrierefreier Aufzug zum Roncalliplatz 1.90 2.40 610.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2018-02-15 13:47:09,50.94035000,6.95976000,513
+PH11,Galeria Kaufhof,1,860,860,07:00,,2022-09-02 11:18:30,0,2,Kaufhof,kaufhof,50667,Köln,,Cäcilienstraße,0,2010-02-04,16,"Normaltarif: 1. Stunde 3 €, danach 2,50 €. Tagesmaximum 20 €
+",0221/223-4214,Mo. - Sa. 7.00 bis 20.30  Uhr<br>,"In Parkhaus A befinden sich 16 Frauenparkplätze sowie 10 Behindertenparkplätze. <br />
+Inhaber einer Galeria- oder Karstadt-Kundenkarte parken ab 50 € Einkaufswert 1 Stunde gratis, ab 100 € 2 Stunden gratis. Die Parkgebühr wird beim Einkauf abgezogen. ",2.00,2.50,1260,"Kaufhof 2567270.50 5644884.50 50667 Köln Cäcilienstraße 2010-02-04 30 2 € für Nichtkunden; ab 1 € für Kunden 0221/223-4214 P1 Mo. - Do. 7.00 bis 20.30 Uhr; Fr./Sa. 7.00 bis 21.30 Uhr<br>
+
+P2 Mo. - So. 7.00 bis 24.00 Uhr Kundentarif:
+bei Einkauf ab 5,00 Euro (Entwertung der Parkscheine an den Kassen)
+
+1. bis 5. Stunde   1,00 Euro / Std.
+ab 6. Stunde       1,50 Euro / Std.;
+
+für Nichtkunden:
+2 Euro/Stunde 2.00 2.50 1260.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2021-11-30 15:15:49,50.93522197,6.95592037,510
+PH03,Groß Sankt Martin,1,185,91,00:00,,2022-09-02 11:18:30,0,3,Groß St. Martin (*),gross_st_martin,50667,Köln,Innenstadt,Große Neugasse,4,2010-02-04,10,60 Cent je angefangene 20 Minuten / 18 €,0221/2580726,durchgehend,"<b>*Baustellenhinweis:</b> <i>Wegen der Bauarbeiten im Umfeld können zeitweise die Datenleitungen unterbrochen sein und während dieser Zeit keine Belegungsdaten übermitteln, obwohl das Parkhaus geöffnet ist.</i><br /><br />
+
+Abrechnung im 20-Minuten-Takt
+<br>
+Abendtarif: 19h-09h 1,00 € / Std. 
+<br>
+gesichert durch digitale Videoüberwachung
+",1.90,2.10,145,"Groß St. Martin 2567534.28 5645378.58 50667 Köln Große Neugasse 2010-02-04 10 1,50 € / 15 € 0221/2580726 durchgehend Abrechnung im 20-Minuten-Takt
+<br>
+Abendtarif: 19h-09h 1,00 € / Std. 
+<br>
+gesichert durch digitale Videoüberwachung
+
+ 1.90 2.10 145.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2015-11-25 14:49:29,50.93979000,6.96019000,510
+PH31,An Farina,1,200,61,00:00,,2022-09-02 11:18:33,0,4,An Farina,an_farina,50667,Köln,Innenstadt,Laurenzplatz,4,2010-02-04,20,"2,50 € / 25 €",0221/2575875,durchgehend,,1.90,2.50,305,"An Farina 2567335.78 5645247.38 50667 Köln Laurenzplatz 2010-02-04 20 1,70 € / 17 € 0221/2575875 durchgehend 1.95 2.50 305.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2022-01-06 12:12:23,50.93839000,6.95810000,507
+PH01,Hauptbahnhof,1,395,220,00:00,,2022-09-02 11:18:24,0,5,Hauptbahnhof,hbf_breslauer_platz,50668,Köln,Innenstadt,Breslauer Platz,1,2006-11-30,40,"1,80 € / 18 €",0221/122312,durchgehend,"Abrechnung im 20-Minuten-Takt; Abendtarif: 19h-09h 1,00 € / Std.; 
+
+DB-Tarif:
+10,80 € / Tag",1.90,2.50,500,"Hbf/ Breslauer Platz 2567547.39 5645785.61 50668 Köln Breslauer Platz 1 2006-11-30 40 1,50 € / 15 € 0221/122312 durchgehend Abrechnung im 20-Minuten-Takt; Abendtarif: 19h-09h 1,00 € / Std.; 
+
+DB-Tarif:
+10,80 € / Tag 1.90 2.50 500.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2013-10-28 09:48:04,50.94366606,6.95987931,516
+PH09,Philharmonie,1,310,256,00:00,,2022-09-02 11:18:48,0,6,Philharmonie (*),philharmonie,50667,Köln,Innenstadt,Bischofsgartenstraße,0,2010-02-04,20,60 Cent je angefangene 20 Minuten / 18 €,0221/2580605,durchgehend,"<b>*Baustellenhinweis:</b> <i>Wegen der Bauarbeiten im Umfeld können zeitweise die Datenleitungen unterbrochen sein und während dieser Zeit keine Belegungsdaten übermitteln, obwohl das Parkhaus geöffnet ist. Phasenweise ist auch die Einfahrt schwer zu finden.</i><br /><br />
+Abrechnung im 20-Minuten-Takt
+<br>
+Abendtarif: 19h-09h 1,00 € /Std.
+<br>
+gesichert durch digitale Videoüberwachung
+<br>
+<b>Veranstaltungspreis (Nur für Besucher der Philharmonie)</b> bei Veranstaltungen an Sonn- und Feiertagen und an Werkstagen 1 1/2 Std. vor Konzertbeginn und bis zu 2 Std. nach Ende der Veranstaltung gegen Vorlage der Eintrittskarte                   2,50 €
+",1.90,0.00,390,"Philharmonie 2567503.87 5645604.44 50667 Köln Frankenplatz 3 2010-02-04 20 1,50 € / 15 € 0221/2580605 durchgehend Abrechnung im 20-Minuten-Takt
+<br>
+Abendtarif: 19h-09h 1,00 € /Std.
+<br>
+gesichert durch digitale Videoüberwachung
+<br>
+<b>Tagespreis</b> bei Veranstaltungen an Sonn- und Feiertagen und an Werkstagen 1 1/2 Std. vor Konzertbeginn und bis zu 2 Std. nach Ende der Veranstaltung gegen Vorlage der Eintrittskarte                   2,50 €
+ 1.90 0.00 390.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2015-11-25 14:49:04,50.94049548,6.96137062,492
+PH06,Maastrichter Straße,1,450,171,00:00,,2022-09-02 11:18:30,0,7,Maastrichter Strasse,maastrichter_strasse,50672,Köln,,Maastrichter Str.,10,2010-02-04,20,"2,00 € / 20 €",0221/252358,"durchgehend
+              ",     ,1.90,2.60,648,"Maastrichter Straße 2565978.97 5645219.00 50672 Köln Maastrichter Str. 10 2010-02-04 20 1,70 € / 17 € 0221/252358 durchgehend
+               2.10 2.60 648.00 Ringe 1 ",,1,Parkleitsystem,,Ringe,2017-04-03 09:24:01,50.93844000,6.93787000,510
+PH29,Kaiser-Wilhelm-Ring,1,450,247,00:00,,2022-09-02 11:18:31,1,8,Kaiser-Wilhelm-Ring,kaiserwilhelmring,50672,Köln,,Kaiser-Wilhelm-Ring,26,2010-02-04,65,"0,50 EUR je angef. 20 Minuten zw. 9 und 19 Uhr; 1 EUR je angef. Stunde zw. 19 und 9 Uhr / 15 EUR",0221/123210,durchgehend,"<hr>
+<b>Behindertengerechtes Parkhaus</b>, Handkassierung möglich
+<hr>
+Tagestarif Abrechnung im 20-Minuten-Takt
+",1.90,2.00,600,"Kaiser-Wilhelm-Ring 2566256.38 5645813.79 50672 Köln Kaiser-Wilhelm-Ring 26 2010-02-04 65 1,20 € / 12 € 0221/123210 durchgehend <hr>
+<b>Behindertengerechtes Parkhaus</b>, Handkassierung möglich
+<hr>
+Abrechnung im 20-Minuten-Takt; Abendtarif: 19h-09h 1,00 € / Std. 
+ 1.90 2.00 600.00 Ringe 1 ",,1,Parkleitsystem,,Ringe,2019-04-16 10:43:54,50.94369000,6.94199000,509
+PH30,Rudolfplatz,1,320,103,00:00,,2022-09-02 11:18:30,0,9,Rudolfplatz,rudolfplatz,50674,Köln,,Habsburgerring,9,2010-02-04,20,"2,00 € / 20,00 €",0221/251825,durchgehend,,1.95,2.80,405,"Rudolfplatz 2566021.15 5644965.49 50674 Köln Habsburgerring 9 2010-02-04 20 1,30 € / 15,50 € 0221/251825 durchgehend Abendtarif: 21h-9h 1,00 € / Std. 1.95 2.80 405.00 Ringe 1 ",,1,Parkleitsystem,,Ringe,2021-03-18 11:35:19,50.93543000,6.93820000,510
+PH27,Sparkasse KölnBonn,0,174,0,06:00,,2022-09-02 00:00:01,-1,10,Sparkasse / Schaafenstr.,sk_koeln_schaafenstr,50676,Köln,,Schaafenstraße,56,2010-02-04,12,"2,00 € / 20 €",,24 Stunden Mo.-So. 365 Tage im Jahr,"* 12 Frauenparkplätze im 1. UG
+
+* 10 Behindertenstellplätze (3  im 1. UG, 3 im 2. UG und 4  im 3. UG jeweils in der Nähe der Fahrstühle)
+*   gesichert durch digitale Videoüberwachung 
+
+*   Zutritt zum Parkhaus
+für Parkhauskunden mit der Parkkarte jederzeit möglich 
+
+*   Notrufsprechstellen aufgeschaltet auf ständig besetzte Leitwarte (24/365) 
+
+*   Barrierefreier Ausgang zum Mauritiuswall",2.00,0.00,238,"SK Köln/Schaafenstr. 2566208.78 5644848.81 50676 Köln Schaafenstraße 2010-02-04 1,30 € / 15,30 € 0221/2262461 durchgehend Abendtarif: 21h-9h 1 € / Std. 2.00 0.00 238.00 Ringe 1 ",,1,Parkleitsystem,,Ringe,2015-03-03 10:59:49,50.93477380,6.94040940,41219
+D_P001,LANXESS arena 1,1,1748,1374,00:00,,2022-09-02 11:18:46,0,11,Lanxess-Arena P1,lanxessarena_1,50679,Köln,,Willy-Brandt-Platz,3,2010-02-04,,"1,30 € / 12,00 €",0221/8875545,durchgehend,"Arenatarif: 5,50 €",1.90,0.00,1748,"Kölnarena 1 2568818.01 5645400.24 50679 Köln Willy-Brandt-Platz 3 2010-02-04 1,00 € / 10,20 € 0221/8875545 durchgehend Arenatarif:              4 € 1.90 0.00 1748.00 Deutz/Kalk 1 ",,1,Parkleitsystem,,Deutz/Kalk,2017-11-28 15:07:19,50.93927181,6.98351494,494
+D_P002,LANXESS arena 2,1,266,40,00:00,,2022-09-02 11:18:14,0,12,Lanxess-Arena P2,lanxessarena_2,50679,Köln,,Willy-Brandt-Platz,3,2010-02-04,,"1,30 € / 12,00 €",0221/8875545,durchgehend,"Arenatarif: 5,50 €",1.90,0.00,266,"Kölnarena 2 2568853.28 5645394.17 50679 Köln Willy-Brandt-Platz 3 2010-02-04 1,00 € / 10,20 € 0221/8875545 durchgehend Arenatarif:              4 € 1.90 0.00 266.00 Deutz/Kalk 1 ",,1,Parkleitsystem,,Deutz/Kalk,2017-11-28 15:07:53,50.93897434,6.97960964,526
+D_P003,,1,634,634,00:00,,2022-09-02 11:18:27,0,13,Lanxess-Arena P3,lanxessarena_3,50679,Köln,,Willy-Brandt-Platz,3,2010-02-04,,,0221/8875545,bei Veranstaltungen,für VIP-Gäste,1.90,0.00,364,Kölnarena 3 2569023.74 5645200.98 50679 Köln Willy-Brandt-Platz 3 2010-02-04 0221/8875545 bei Veranstaltungen für VIP-Gäste 1.90 0.00 364.00 Deutz/Kalk 1 ,,1,Parkleitsystem,,Deutz/Kalk,2017-11-28 15:08:15,50.93897434,6.97960964,513
+D_P004,LANXESS arena 4,1,309,183,00:00,,2022-09-02 11:18:43,0,14,Lanxess-Arena P4,lanxessarena_4,50679,Köln,,Willy-Brandt-Platz,3,2010-02-04,,"1,30 € / 12,00 €",0221/8875545,durchgehend,"Arenatarif: 5,50 €",1.90,0.00,318,"Kölnarena 4 2569325.73 5645218.27 50679 Köln Willy-Brandt-Platz 3 2010-02-04 1,00 € / 10,20 € 0221/8875545 durchgehend Arenatarif:              4 € 1.90 0.00 318.00 Deutz/Kalk 1 ",,1,Parkleitsystem,,Deutz/Kalk,2017-11-28 15:08:35,50.93921773,6.98591819,497
+PH04,Brückenstraße,1,520,346,00:00,,2022-09-02 11:18:31,0,16,Brückenstraße,brueckenstrasse,50667,Köln,,Ludwigstraße,1,2010-02-04,70,"2,20 € / 22 €",0221/2577500,durchgehend,"Abendtarif: 20h - 8h 1,20 € / Std.",1.90,2.50,720,"Brückenstraße 2567156.09 5645043.13 50667 Köln Ludwigstr 1 2010-02-04 70 1,70 € / 17 € 0221/2577500 durchgehend Abendtarif: 20h - 8h 1,00 € / Std. 1.90 2.50 600.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2016-03-14 11:43:16,50.93750000,6.95482000,509
+PH34,,0,0,0,00:00,,2021-08-10 15:00:56,-1,17,Brück/Mauspfad,brueck_mauspfad,50119,Köln,,Brücker Mauspfad,0,2010-02-04,,"2,50 € / Tag",,"Mo - Fr    6h - 22h
+Sa          7h - 17h
+",frei für KVB - Kunden,0.00,0.00,357,"Brück/Mauspfad 2575819.99 5646448.13 50119 Köln Brücker Mauspfad 2010-02-04 2,50 € / Tag Mo - Fr    6h - 22h
+Sa          7h - 17h
+ frei für KVB - Kunden 0.00 0.00 357.00 P+R 1 ",,1,Parkleitsystem,,P+R,2010-10-27 11:20:07,50.94134300,7.08506400,33510364
+PH17,Am Neumarkt,1,200,195,00:00,,2022-09-02 11:18:33,0,18,Am Neumarkt,am_neumarkt,50676,Köln,,Lungengasse,35,2010-02-04,56,"2,00 € / 20 €",0221/3469850,Mo-So   7h - 24h,,2.00,2.70,329,"Am Neumarkt 2566549.72 5644832.82 50676 Köln Lungengasse 35 2010-02-04 56 1,70 € / 18 € 0221/3469850 Mo-So   7h - 24h 2.00 2.70 329.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2016-06-20 15:19:47,50.93490000,6.94720000,507
+PH32,Zoo/Flora,0,0,0,06:00,,2021-10-14 08:39:56,-1,19,Zoo (*),zoo,50735,Köln,,Riehler Str.,190,2006-12-08,,"0,90 / 8,60 EUR",0221/769337,"Montag bis Freitag 06:00 - 22:00
+Samstag / Sonntag 09:00 - 18:30
+","Tagespauschale 8,60 €
+
+(Hinweis: 
+Seit 1.3.2014 KEINE   P+R-Konditionen in diesem Parkhaus)",1.90,0.00,392,,Dieses Parkhaus ist nicht ans Parkleitsystem angeschlossen. Wir können deshalb keine Livedaten anzeigen. Das Parkhaus kann aber trotzdem  zu den genannten Zeiten genutzt werden.,0,-,http://www.contipark.de/de-DE/find-parking/koeln-parkhaus-am-zoo-p-r/,Dom/Rhein,2016-12-27 19:14:32,50.95830000,6.97609000,27917224
+PH19,Gürzenich,1,213,179,07:00,,2022-09-02 11:18:31,0,20,Gürzenich,guerzenich,50667,Köln,,Quatermarkt,5,2006-12-20, 6,"2,40 € / 20 €",0221/2576898,"Mo. - Do. 07:00 - 22:00 Uhr, 
+Fr. 07:00 - 00:00, 
+Sa. durchgehend geöffnet, 
+So. 00:00 - 22:00 Uhr, 
+Feiertags geschlossen
+",Monatskarte ab 154 € ,1.80,2.20,315,"Gürzenich 256735.00 5645025.89 50667 Köln Quatermarkt 2006-12-20  6 1,50 € / 15 € 0221/2576898 Mo-Do: 07h-24h
+Fr, Sa bis So 6h :durchgehend  Wochenkarte 38 €
+Monatskarte 137,50 €  1.80 2.20 315.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2017-11-29 08:40:07,50.93702820,6.95801249,509
+PH33,Mediapark,1,272,296,00:00,,2022-09-02 11:18:30,0,21,Mediapark,mediapark,50670,Köln,,Maybachstraße,1,2006-12-20,,"1,50 € / 15 €
+
+Kinotarif (pauschal 2,00 € für 4 Stunden):
+Mo. - Fr. 18.30 - 23.30 Uhr
+Sa. 13.30 - 23.30 Uhr
+So. 10.30 - 23.30 Uhr",0711 / 305 70 305,durchgehend,Preis f. Dauerparker ab 100 €/Monat,1.90,0.00,1186,"Mediapark 2566306.24 5646139.39 50670 Köln Maybachstraße 2006-12-20 1,50 € / 15 € 0221/529428 durchgehend Dauerkarte von 5h bis 19 h: 95,20 €
+Dauerkarte durchgehend 119 € 1.90 0.00 1186.00 Ringe 1 ",,1,Parkleitsystem,,Ringe,2021-06-29 09:50:39,50.94736000,6.94505000,510
+D_P006,Köln Arcaden,1,1700,527,00:00,,2022-09-02 11:18:24,0,22,Köln Arcaden,koeln_arcaden,51103,Köln,,Kalker Hauptstraße,55,2006-12-08,,"Pro Stunde 1 Euro, Maximalpreis ohne Tagesticket 10 Euro; spezielles Tagesticket 3 Euro",0221-992030,durchgehend geöffnet,"bei Fragen wenden Sie sich bitte an folgende Rufnummer:
+0221-992030",0.00,0.00,1796,"Köln Arcaden 2570018.10 5645293.97 51103 Köln Kalker Hauptstraße 55 2006-12-08 0221/35505661 bei Fragen wenden Sie sich bitte an folgende Rufnummer:
+0221 / 35505661 0.00 0.00 1800.00 Deutz/Kalk 1 ",,1,Parkleitsystem,,Deutz/Kalk,2018-05-30 14:14:37,50.93791000,6.99790000,516
+PH15,Opernpassagen,1,0,0,00:00,,2022-08-31 15:22:57,0,23,Opern Passagen,opern_passagen,50667,Köln,,Schwertnergasse,1,2006-12-15,32,"2,00 € / 10 €",0221-42079952,durchgehend,"Theatertarif:
+Mo - Sa:  16h-24h         4,50€
+sonn- und feiertags:       4,50€ ",2.20,2.85,550,"Opern Passagen 2566974.84 5645264.62 50667 Köln Schwertnergasse 1 2006-12-15 32 1,60 € / 16 € 0221-258 0171 durchgehend Sondertarif:
+Mo - Sa:  18h-24h         4,50€
+sonn- und feiertags:       4,50€  2.30 2.85 562.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2014-05-09 09:08:11,50.93868420,6.95237190,158643
+W_P08o,Stadion P8 Bus - nur bei Veranstaltungen geöffnet,1,40,40,00:00,,2022-09-02 11:18:40,0,24,Stadion P8 Bus,stadion_p8_bus,50933,Köln,,Salzburger Weg,0,2008-11-12,,,,.,Außerhalb von Großveranstaltungen öffentlich ohne Gebühren Nutzbar - bei Veranstaltungen nur mit Sonderausweis.,0.00,0.00,80,Stadion P8 Bus/PKW 2561057.27 5643886.28 50933 Köln Salzburger Weg 2007-02-12 . Außerhalb von Großveranstaltungen öffentlich ohne Gebühren Nutzbar - bei Veranstaltungen nur mit Sonderausweis. 0.00 0.00 500.00 Stadion 1 ,,1,Parkleitsystem,,Stadion,2010-11-03 15:44:42,50.92378721,6.86854473,500
+PH12,Hohe Straße,1,217,11,00:00,,2022-09-02 11:18:50,0,25,Hohe Straße,hohe_strasse,50667,Köln,,Marspfortengasse,10,2006-12-15,9,"Je angefangene Stunde 2,00€
+",,"Montag bis Sonntag und Feiertags, durchgehend geöffnet
+","24 Stunden 15,-€ / 
+Verlorenes Ticket 20,-€",2.00,0.00,280,"Hohe Straße 2567298.69 5645298.40 50667 Köln Marspfortengasse 2006-12-15 9 1,30 € / 11,70 € 0221/2578288 durchgehend Abendtarif 20h-8h 1 € / Std
+Tagesticket 9 € für 10 Stunden
+ 2.00 0.00 280.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2018-04-24 10:37:00,50.93909000,6.95695000,490
+PH24,Wolfsstraße,1,335,118,00:00,,2022-09-02 11:18:30,0,26,Wolfsstraße,wolfstrasse,50667,Köln,,Wolfsstraße,6,2006-12-15,15,"1,70 € / 17 €",0221/2578907,durchgehend,"Abendtarif: 20h-8h 1 € / Std.
+Tagesticket 12 €  für 10 Std.
+Verlorenes Ticket: 18 € 
+Wertkarten mit Rabatt erhältlich",2.00,0.00,380,"Wolfsstraße 2566638.09 5645158.01 50667 Köln Wolfsstraße 6 2006-12-15 15 1,30 € / 11,70 € 0221/2578907 durchgehend Abendtarif: 20h-8h 1 € / Std
+Tagesticket 9 €  für 10Std  2.00 0.00 380.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2016-12-13 15:58:57,50.93788970,6.94686040,510
+PH26,Quincy,1,363,178,07:00,,2022-09-02 11:18:27,2,27,Quincy,quincy,50667,Köln,,Neven-DuMont Straße,80,2008-07-09,23,"Sonntag bis Donnerstag maximal 7 € / Tag. Freitag und Samstag maximal 12 € / Tag
+",,"Einfahrt Montag bis Samstag: 7.00 Uhr bis 22.00 Uhr.
+Einfahrt Sonntag: 9.00 Uhr bis 18.00 Uhr, außer Feiertage
+Ausfahrt rund um die Uhr.",Die Ausfahrt ist 24 Stunden möglich! Außerhalb der Öffnungszeiten ist der Zugang zum Parkhaus nur mit gültigem Parkschein möglich.,2.00,3.00,678,"DuMont Carré 2566842.61 5645305.86 50667 Köln Neven-DuMont Straße 2008-07-09 23 1, 80 € Mo-Sa 07h-24h<br/>
+So, Feiert. 09h-24h  2.00 3.00 678.00 Neumarkt 1 ",,1,Parkleitsystem,https://quincy.koeln/anfahrt-parken/,Neumarkt,2022-08-17 14:09:49,50.93930760,6.95053710,513
+PH18,Alte Wallgasse,1,218,93,00:00,,2022-09-02 11:18:26,0,28,Alte Wallgasse,alte_wallgasse,50672,Köln,,Alte Wallgasse,31,2006-12-20,20,2 € / 12 €,0221/2573614,durchgehend,,2.10,2.00,430,"Alte Wallgasse 2566296.13 5645374.35 50672 Köln Alte Wallgasse 31 2006-12-20 20 2 € / 12 € 0221/2573614 durchgehend Messeticket: 1.Tag 12 €
+jeder weiterer Tag 6 € 2.10 2.00 430.00 Ringe 1 ",,1,Parkleitsystem,,Ringe,2016-04-15 12:48:01,50.93990000,6.94263000,514
+PH23,Lungengasse,1,200,86,00:00,,2022-09-02 11:18:36,0,29,BP Lungengasse,bp_lungengasse,50676,Köln,,Lungengasse,,2006-12-20,10,"2,50 € / Stunde
+25 € / Tag",0221/2406991,"Tag und Nacht geöffnet
+",Angaben lt. http://www.contipark.de/find-parking/koeln-parkhaus-lungengasse/,2.00,2.00,250,"BP Lungengasse 2566542.36 5644827.36 50676 Köln Lungengasse 2006-12-20 20 1,70 € / 12 € 0221/2406991 Mo-Do 07h-21h
+Fr 07h-23h
+Sa 08h-22h
+So,Feier geschl. 
+ Messeticket:
+1. Tag 12€ 
+jeder weiterer Tag 6€ 2.00 2.00 230.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2022-07-15 15:41:58,50.93502000,6.94595000,504
+PH22,Heumarkt,1,392,58,00:00,,2022-09-02 11:18:30,0,30,Heumarkt,heumarkt,50667,Köln,,Markmannsgasse,3,2006-12-20,40,"Erste/zweite 30 Min. jeweils 1,50 €; danach jede Stunde 3,50 €/27 €",,durchgehend,,1.90,2.00,460,"Heumarkt 2567635.02 5645052.57 50667 Köln Markmannsgasse 2006-12-20 40 2,40 € / 15 € 0221/9255869 durchgehend 1.90 2.00 460.00 Dom/Rhein 1 ",,1,Parkleitsystem,,Dom/Rhein,2021-08-10 12:14:59,50.93671080,6.96225290,510
+PH10,Cäcilienstraße,1,339,328,07:00,,2022-09-02 11:18:26,0,31,Cäcilienstraße,caecilienstrasse,50667,Köln,Innenstadt,Cäcilienstraße,29,2007-01-19,,"ab 2,70 €/Stunde bis 30 €/Tag",0711 / 305 70 305,"Mo.-Sa. 7-21 Uhr / 
+So/Feiertag 7-22 Uhr",,1.90,0.00,339,"Cäcilienstraße 256693.00 5644914.55 50667 Köln Cäcilienstraße 30 2007-01-19 1,30 € / 15 € 2580245 durchgehend Abendtarif 20h-8h 1 € / Std
+ 2.00 0.00 240.00 Neumarkt 1 ",,1,Parkleitsystem,https://www.apcoa.de/parken/koeln/caecilienstrasse/,Neumarkt,2020-09-15 09:55:03,50.93486362,6.95113531,514
+PH13,Schildergasse,1,359,129,00:00,,2022-09-02 11:18:46,1,32,Schildergasse,schildergasse,50667,Köln,Innenstadt,Cäcilienstraße,32,2008-02-21,,"Reguläres Parkentgelt Mo.-So. 00:00 - 24:00 Uhr, <br>	 
+erste 30 Min.	1,00 €, <br>
+zweite 30 Min.	1 € <br>
+Je weitere Stunde 2 € , <br>
+Tag (24 Std.)	14 € <br>",-,"Täglich von 00:00 - 24:00 Uhr  geöffnet
+","Einfahrt über Cäcilienstraße 32. 
+
+Bei geschlossenem Rolltor: Rolltor öffnet automatisch bei Ein- und Ausfahrt. Lage des Nachtzugangs: Über Türleser an beiden Hauptzugängen (Kronengasse und Cäcilienstraße).
+",0.00,0.00,362,"Schildergasse 2566926.89 5644914.99 50667 Köln Cäcilienstraße 32 2008-02-21 50 2,10 € / 15 € 0221/2575533 durchgehend ehemals bekannt unter dem Namen Aral-Parkhaus 2.00 0.00 600.00 Neumarkt 1 ",,1,Parkleitsystem,http://www.contipark.de/de-DE/find-parking/koeln-tiefgarage-schildergasse/,Neumarkt,2019-11-28 16:18:39,50.93559000,6.95102000,494
+PH07,Im Klapperhof,1,200,200,00:00,,2022-09-02 11:18:34,0,33,Im Klapperhof,im_klapperhof,50670,Köln,,Im Klapperhof,13,2007-01-25,40,"flexibel 1,80 € - 2,60 €, je nach Auslastung",,24 h geöffnet,,1.90,2.00,459,"Im Klapperhof 2566359.65 5645571.73 50670 Köln Im Klapperhof 13 2007-01-25 40 1,40 € / 13 € 0221-1443090 Erste Stunde 1 € 1.90 2.00 465.00 Ringe 1 ",,1,Parkleitsystem,https://www.apcoa.de/parken/koeln/klapperhof/,Ringe,2021-07-01 14:12:06,50.94161000,6.94327000,506
+PH08,,0,0,0,00:00,,2020-03-19 10:18:44,-1,34,Von-Werth-Straße,vonwerthstrasse,50670,Köln,,Von-Werth-Straße,24,2010-08-28,0,-,-,Privates Parkhaus. Keine öffentlichen Plätze verfügbar.,,1.90,2.00,0,Von-Werth-Straße 2566419.56 5645911.76 50670 Köln Von-Werth-Straße 24 2010-08-28 - - Privates Parkhaus. Keine öffentlichen Plätze verfügbar. 1.90 2.00 0.00 Ringe 1 ,,1,Parkleitsystem,,Ringe,2010-10-27 11:04:33,50.94475000,6.94454000,77504896
+PH35,Gerling Ring Karree,1,240,90,00:00,,2022-09-02 11:18:33,0,35,Ringkarree,gerling_ring_carre,50670,Köln,,Im Klapperhof,49,2007-08-28,vorh.,"1,80 € / 19 €",022127078565,durchgehend,"Behindertengerechtes Parkhaus - Handkasse 24 Stunden geöffnet
+<br>
+Spezielle Nachttarife ab 5 €/Nacht 
+<br>
+Wochenendtickets ",2.00,2.20,440,Gerling Ring Karree ,,1,Parkleitsystem,,Ringe,2017-10-04 16:14:20,50.94139462,6.94092146,507
+PH14,Theater-Parkhaus,1,340,146,07:00,,2022-09-02 11:18:30,1,36,Theater/ Krebsgasse,theater__krebsgasse,50667,Köln,,Krebsgasse,1,2007-01-25,45,"2,50 € / 16 €",0221/2578318,"7h - 24h
+So und feiertags geschlossen. ","Abendtarif: 19h-24h  max. 4 €<br />
+<a href=""http://www.city-parkhaus-koeln.de/aktuelles.html"" target=""_blank"" rel=""nofollow"">www.city-parkhaus-koeln.de</a>
+ ",2.08,0.00,420,"Theater/ Krebsgasse 2566802.00 5645039.17 50667 Köln Krebsgasse 1 2007-01-25 45 1,70 € / 17 € 0221/2578318 7h - 24h
+So und feiertags 12h - 24h  Theaterticket: 19h-24h  4 € 210.00 0.00 420.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2022-01-03 15:56:55,50.93679000,6.95000000,510
+PH20,Galeria Karstadt ,1,388,353,07:00,,2022-09-02 11:18:38,0,37,Karstadt,karstadt,50667,Köln,,Richmodstraße,0,2007-01-25,ca 60,"Für die 1. angefangene Stunde 2,00 €
+jede weitere angefangene Stunde 2,50 €
+ab der 5. angefangenen Stunde = Tagesticket
+",,Mo – Sa 07:00 bis 20:30 Uhr,"Tagesticket 12,00 €
+Kunden bekommen ab einem Einkaufswert von 50 € eine Stunde geschenkt. Ab einem Einkaufswert von 100 € 2 Stunden",1.80,0.00,458,"Karstadt 2566599.13 5645092.33 50667 Köln Richmodstraße 2007-01-25 ca 60 2 € von 7:30h bis 1/2 Stunde nach Geschäftsschluss
+Sonn- und Feiertags geschlossen Für Karstadtkunden 1. und 2. Stunde: 1,50 Euro
+
+Tagesmax. 10,00 Euro
+
+Bonuskarte: 10 x Parken (egal wie lange), das 11 x ist gratis (den ganzen Tag)
+
+Besonderheiten:
+Fahrrad und Kinderwagenverleih.
+Sonderrabat 10% durch Prepaidkarte 1.80 0.00 458.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2018-11-19 13:11:21,50.93840643,6.94783083,502
+PH16,Maritim,1,575,287,00:00,,2022-09-02 11:18:30,0,38,Maritim,maritim,50667,Köln,,Heumarkt,20,2007-01-25,ca. 70,"2,40€ / 24€",,durchgehend,"Monatsticket: 12h/85,00 EUR oder 24h/165,00 EUR ",1.90,0.00,600,Maritim 2567484.92 5644896.06 50667 Köln Pipinstraße 7 2007-01-25 ca. 70 2€ / ?€ durchgehend Monatsticket 155 €;  190.00 0.00 600.00 Dom/Rhein 1 ,,1,Parkleitsystem,,Neumarkt,2022-01-03 11:01:23,50.93512730,6.96168175,510
+PH25,Bazaar de Cologne,1,139,57,06:00,,2022-09-02 11:18:31,1,39,Bazaar de Cologne,bazaar_de_cologne,50672,Köln,,Große Brinkgasse,5+11,2007-01-25,16,"2,00 €",0221/2570054,"Mo - Fr 6h - 2h
+Sa, So 8h - 2h","ab 20h 1,50 €
+Tageshöchsttarif 18 €",2.00,0.00,255,"Bazaar de Cologne 2566394.15 5645130.22 50672 Köln Große Brinkgasse 5 2007-01-25 15 1,80 € 0221/2570054 Mo - Fr 6h - 1h
+Sa,So 8h - 1h ab 3. Stunde 1,50 € 
+ab 20h 1,30 € 2.00 0.00 280.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2015-10-08 10:11:48,50.93759000,6.94396000,509
+PH21,Kreissparkasse,1,182,0,06:00,,2022-09-02 11:18:34,0,40,KSK/ Richmodstr,ksk__richmodstr,50667,Köln,,Richmodstr,13,2010-02-04,10,2 € / 15 €, 0221/2272672,"Mo-Fr. 07h30-21h
+Sa 07h-20h00
+So, Feiertag geschl. ",Für Kunden 1. Stunde frei,1.90,4.00,240,"KSK/ Richmodstr 2566644.10 5645163.64 50667 Köln Richmodstr 13 2010-02-04 10 2 € / 15 €  0221/2272672 Mo-Fr. 07h30-21h
+Sa 07h-17h30
+So, Feier geschl.  Für Kunden 1. Stunde frei 1.90 4.00 240.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2012-03-15 09:50:30,50.93704072,6.94761625,506
+PH36,P+R Marsdorf,1,621,527,00:00,,2022-09-02 11:15:46,0,42,Marsdorf P+R,marsdorf_pundr,50858,Köln,,Emmy-Noether-Str,0,2007-02-07,44,2.50 € / Tag,02215470,durchgehend,,2.00,2.50,621,"Marsdorf P+R 2559649.06 5642653.31 50858 Köln Emmy-Noether-Str 2007-02-07 44 2.50 € / Tag 02215470 durchgehend Andere Stellplätze: 25 Wohnwagen, 3 Bus 2.00 2.50 621.00 P+R 1 ",,1,Parkleitsystem,,P+R,2016-11-30 13:55:48,50.91805130,6.85067560,674
+W_P001,Stadion P1 - nur bei Veranstaltungen geöffnet,1,600,134,00:00,,2022-09-02 11:18:41,0,43,Stadion P1,stadion_p1,50933,Köln,,Alter Militärring,0,2007-02-12,,"7,00 €",,,,0.00,0.00,550,"Stadion P1 2562181.53 5645335.36 50933 Köln Alter Militärring 2007-02-12 3,50€ /FC , 5.00€/ andere 0.00 0.00 550.00 Stadion 1 ",,1,Parkleitsystem,,Stadion,2016-09-21 13:44:13,50.93970450,6.88433757,499
+W_P003,Stadion P3  - nur bei Veranstaltungen geöffnet,1,1000,55,00:00,,2022-09-02 11:18:41,0,44,Stadion P3,stadion_p3,50933,Köln,,Willi-Schwarz-Weg,0,2007-02-12,,"7,00 €",,,,0.00,0.00,1000,"Stadion P3 2561156.50 5645196.10 50933 Köln Willi-Schwarz-Weg 2007-02-12 3,50€ /FC , 5.00€/ andere 0.00 0.00 1000.00 Stadion 1 ",,1,Parkleitsystem,,Stadion,2016-09-21 13:48:16,50.93854166,6.86697832,499
+W_P006,Stadion P6 - nur bei Veranstaltungen geöffnet,1,1000,1000,00:00,,2022-09-02 11:18:42,0,46,Stadion P6,stadion_p6,50933,Köln,,Salzburger Weg,0,2007-02-12,,"7,00 €",,,,0.00,0.00,1000,"Stadion P6 2561057.27 5643886.28 50933 Köln Salzburger Weg 2007-02-12 3,50€ /FC , 5.00€/ andere 0.00 0.00 1000.00 Stadion 1 ",,1,Parkleitsystem,,Stadion,2016-09-21 13:48:42,50.92722267,6.86760059,498
+W_P007,Stadion P7 - nur bei Veranstaltungen geöffnet,1,1000,876,00:00,,2022-09-02 11:18:43,0,47,Stadion P7,stadion_p7,50933,Köln,,Salzburger Weg,0,2007-02-12,,"7,00 €",,,,0.00,0.00,1000,"Stadion P7 2561057.27 5643886.28 50933 Köln Salzburger Weg 2007-02-12 3,50€ /FC , 5.00€/ andere 0.00 0.00 1000.00 Stadion 1 ",,1,Parkleitsystem,,Stadion,2016-09-21 13:48:59,50.92554555,6.86798683,497
+W_P08w,Stadion P8 PKW - nur bei Veranstaltungen geöffnet,0,650,0,00:00,,2022-09-02 11:18:43,-1,48,Stadion P8 PKW,stadion_p8_pkw,50933,Köln,,Salzburger Weg,0,2008-11-12,,,,,Das Parken auf dem Parkplatz P8 ist nur bei Großveranstaltungen erlaubt. ,0.00,0.00,500,Stadion P8 Bus/PKW 2561057.27 5643886.28 50933 Köln Salzburger Weg 2007-02-12 . Außerhalb von Großveranstaltungen öffentlich ohne Gebühren Nutzbar - bei Veranstaltungen nur mit Sonderausweis. 0.00 0.00 500.00 Stadion 1 ,,1,Parkleitsystem,,Stadion,2020-11-26 11:15:53,50.92338143,6.86661354,497
+W_P004,Stadion P4 - nur bei Veranstaltungen geöffnet,1,500,196,00:00,,2022-09-02 11:18:41,0,49,Stadion P4,stadion_p4,50933,Köln,,Walter-Binder-Weg,0,2007-02-12,,"7,00 €",,,,0.00,0.00,550,"Stadion P4 2561278.47 5645458.72 50933 Köln Walter-Binder-Weg 2007-02-12 3,50€ /FC , 5.00€/ andere 0.00 0.00 550.00 Stadion 1 ",,1,Parkleitsystem,,Stadion,2016-09-21 13:47:40,50.93904195,6.87300793,499
+PH38,Rhein Triadem,1,264,523,00:00,,2022-09-02 11:18:46,0,56,Rhein Triadem,rhein_triadem,50668,Köln,,Am Alten Ufer,35,0000-00-00,,"1,80€ pro Stunde / 
+Tageskarte 18 Euro",,,,0.00,0.00,600,,,1,Parkleitsystem,,,2017-11-14 09:13:41,50.94454487,6.96255079,494
+PH28,P+R Stadion,1,580,526,00:00,,2022-09-02 11:18:24,0,51,P+R Stadion (P2),pundr_stadion,50933,Köln,Junkersdorf,Aachener Str,1003,0000-00-00,35,"2,50 Euro / Tag",0221 4992273,"Montag-Freitag: 6:00-24:00 Uhr
+
+Samstag: 7:00-21:00 Uhr
+
+Sonntag: 6:00-22:00 Uhr","Park-and-Ride Parkhaus, Parkgebühr entfällt beim Kauf eines ÖPNV-Fahrscheins
+
+",2.00,0.00,560,,,1,Parkleitsystem,,Stadion,2018-03-07 11:28:37,50.93760865,6.87457434,516
+PH37-1,Rheinauhafen Museen,1,100,60,00:00,,2022-08-31 15:22:57,-1,53,Rheinauhafen,rheinauhafen,50678,Köln,,Bayenstraße,2,0000-00-00,,"je Stunde 3,30 - 3,50 €
+Bereits ab 6 Stunden gilt das Tagesmax. von 45 €
+
+Abend-/Nachttarif (20.00-07.00 Uhr): pauschal 7 €",,Durchgehend geöffnet,,0.00,0.00,0,,,1,Parkleitsystem,,,2020-02-26 12:38:20,50.92534000,6.96539000,158643
+PH37-2,Rheinauhafen Bayenturm,1,100,60,00:00,,2022-08-31 15:22:57,-1,54,Rheinauhafen  Einfahrt Nord/Bayenturm,rheinbayent,50678,Köln,,Harry-Blum-Platz,2,0000-00-00,,"0-30 min. 1,20 €
+31-60 min. 1,20 €
+jede weitere angefangene Stunde 2,40 €
+
+Tagesmax. 24,00 €
+
+Abend-/Nachttarif (20.00-07.00 Uhr): max. 5,00 €
+
+KD-Besucher bis 12 Std: 5,00 €",,Durchgehend geöffnet,"Um in das Parkhaus zu gelangen, muß über die  Rheinufer-Straße in nördlicher Richtung angefahren werden. Eine Zufahrt befindet sich in Höhe Bayenstraße , eine weitere in Höhe Aggripinaufer.
+
+Weitere Infos unter <a href=""http://www.apcoa.de/parken-in/koeln/rheinauhafen.html"" target=""_blank"" rel=""nofollow"">apcoa.de</a>",0.00,0.00,0,,,1,Parkleitsystem,,,2015-07-22 11:46:55,50.92716850,6.96394554,158643
+PH37-3,Rheinauhafen Oberländer Wall,1,60,20,00:00,,2022-08-31 15:22:57,-1,55,Rheinauhafen Einfahrt Süd/Oberländer Wall,rhein_oberlw,50678,Köln,,,0,0000-00-00,,"0-30 min. 1,00 €
+31-60 min. 1,00 €
+jede weitere angefangene Stunde 2,00 €
+
+Tagesmax. 20,00 €
+
+Abend-/Nachttarif (20.00-07.00 Uhr): pauschal 3,00 €
+
+KD-Besucher bis 12 Std: 5,00 €
+
+Museum Besucher bis 5 Std.: 3,00 €",01805 - 903310,Durchgehend geöffnet,,0.00,0.00,0,,,1,Parkleitsystem,,,2014-11-18 16:51:55,50.92074378,6.96883014,158643
+PH05,REWE,1,217,99,00:00,,2022-09-02 11:18:46,0,57,REWE City,rewecity,50667,Köln,,Hohe Str.,30a,2014-02-21,,2 € / 15 €,0221/2575533,durchgehend,Zufahrt über Pipinstr./Große Sandkaul ,2.00,2.80,212,"Schildergasse 2566926.89 5644914.99 50667 Köln Cäcilienstraße 32 2008-02-21 50 2,10 € / 15 € 0221/2575533 durchgehend ehemals bekannt unter dem Namen Aral-Parkhaus 2.00 0.00 600.00 Neumarkt 1 ",,1,Parkleitsystem,,Neumarkt,2019-08-12 15:27:50,50.93560000,6.95689000,494
